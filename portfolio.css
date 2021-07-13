@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	font-size: 10px;
 }
 
 .navbar a {
@@ -8,6 +9,7 @@
 	margin: 50% 0 50% 0;
 	position: relative;
 	top: 30px;
+	font-size: 1.5rem;
 	
 }
 
@@ -19,27 +21,31 @@
 .welcome-banner {
 	background-image: url("https://images.pexels.com/photos/2132171/pexels-photo-2132171.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 	width: 100%;
-	height: 1000px;
+	height: 100vh;
 	text-align: center;
 	color: rgb(255,255,255);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	
 }
 
-@media screen and (max-height:  1000px) {
+@media screen and (max-width: 800px) {
 	.welcome-banner {
-		background-image: 100%;
+		height: auto;
 	}
+
+
 }
 
 h1 {
-	font-size: 50px;
-	padding: 15% 25% 0 25%;
+	font-size: 4rem;
+	margin: 0 auto;
+	padding: 50px 0 200px 0 ;
 }
 
 h2 {
 	text-align: center;
-	margin: 25px;
+	font-size: 2rem;
 }
 
 .about {
@@ -68,7 +74,16 @@ h2 {
 	border-top: 2px solid black;
 
 }
+.my-contacts i {
+  font-family: 'FontAwesome';
+  src: url("https://fontawesome.com/v5.15/icons/linkedin?style=brands");
+}
+
+
+}
 
 body {
 	padding: 10px;
 }
+
+
