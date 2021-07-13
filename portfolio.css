@@ -45,7 +45,11 @@ h2 {
 	background-color: rgb(247, 238, 200);
 }
 
-.portfolio-container, .about-me {
+.about-me{
+	text-align:center;
+}
+
+.portfolio-container, .my-contacts{
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -59,7 +63,10 @@ h2 {
 }
 
 
+.contact{
+	border-top: 2px solid black;
 
+}
 
 body {
 	padding: 10px;
