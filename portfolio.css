@@ -31,7 +31,7 @@
 @media screen and (max-width: 800px) {
 	.welcome-banner {
 		height: auto;	
-}
+  }
 }
 
 h1 {
@@ -51,8 +51,7 @@ h2 {
 }
 
 .about-me-container {
-	text-align:center;
-	
+	text-align:center;	
 }
 
 .about-me-container img, .about-me-container p {
