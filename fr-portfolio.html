@@ -1,75 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-gb">
 <head>
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<title>Freddie's Portfolio</title>
 </head>
 <body>	
-	<header class="navbar">
-		<a href="#portfolio">Portfolio</a>
-		<a href="#about">About</a>
-		<a href="#contact">Contact</a>
-	</header>
-	<section class="welcome-banner" >
-							<h1>Freddie's Portfolio</h1>
-										
-	</section>	
-	<section id="about" class="about-alt">
-		<h2> About me </h2>
-			<div class="about-me">
-				<div>
-					<img src="https://via.placeholder.com/350x200">
-				</div>
-				<div>
-					<p>Hi this is where I should put some information about myself</p>
-				</div>
-			</div>		
-	</section>
-		
-	<section id="portfolio" class="projects">
-		<h2>Portfolio</h2>
-			<div class="portfolio-container">
-				<div>
-					<img src="https://via.placeholder.com/350x200">
-					<p>This is where my project information will go</p>
-				</div>
-				<div>
-					<img src="https://via.placeholder.com/350x200">
-					<p>This is where my project information will go </p>
-				</div>	
-			</div>
-			<div class="portfolio-container">	
-				<div>
-					<img src="https://via.placeholder.com/350x200">
-					<p>This is where my project information will go</p>
-				</div>	
-				<div>
-					<img src="https://via.placeholder.com/350x200">
-					<p>This is where my project information will go</p>
-				</div>
-			</div>		
-	</section>
-	<section id="contact" class="contact-me">
-		<h2>Contact</h2>
-			<div class="my-contacts">
-				<div>
-					<h3>Email</h3>
-					<i class="fas fa-at"></i>
-				</div>
-				<div>
-					<h3>LinkedIn</h3>
-					<i class="fab fa-linkedin"></i>
-
-				</div>
-				<div>
-					<h3>Github</h3>
-					<i class="fab fa-github"></i>
-				</div>
-							
-			</div>
-	</section>					
+ <main>	
+  <nav class="navbar">
+   <a href="#portfolio">Portfolio</a>
+   <a href="#about">About</a>
+   <a href="#contact">Contact</a>
+  </nav>
 	
+  <section class="welcome-banner" >
+   <h1>Freddie's Portfolio</h1>
+  </section>	
+	
+  <article id="about" class="about-alt">
+	<h2> About me </h2>
+		<div class="about-me-container">
+			<figure>
+				<img src="https://via.placeholder.com/350x200">
+			</figure>
+			<div>
+				<p>Hi this is where I should put some information about myself</p>
+			</div>
+		</div>		
+  </article>
+		
+  <section id="portfolio" class="projects">
+   <h2>Portfolio</h2>
+   <div class="portfolio-container"> <!-- Portfolio container left hand start -->
+     <figure>
+		<img src="https://via.placeholder.com/350x200">
+		<figcaption>This is where my project information will go</figcaption>
+	 </figure>
+	 <figure>
+		<img src="https://via.placeholder.com/350x200">
+		<figcaption>This is where my project information will go </figcaption>
+	 </figure>	
+	 </div>  <!-- Portfolio container left hand end -->
+	<div class="portfolio-container">	<!-- Portfolio container right hand start -->
+	 <figure>
+		<img src="https://via.placeholder.com/350x200">
+		<figcaption>This is where my project information will go</figcaption>
+	 </figure>	
+	 <figure>
+		<img src="https://via.placeholder.com/350x200">
+		<figcaption>This is where my project information will go</figcaption>
+	 </figure>
+	</div>	<!-- Portfolio container right hand end -->	
+  </section>
+	
+  <footer id="contact" class="contact-me">
+	<h2>Contact</h2>
+	<div class="my-contacts">
+		<div>
+			<h3>Email</h3>
+			<i class="fas fa-at"></i>
+		</div>
+		<div>
+			<h3>LinkedIn</h3>
+			<i class="fab fa-linkedin"></i>
+
+		</div>
+		<div>
+			<h3>Github</h3>
+			<i class="fab fa-github"></i>
+		</div>
+							
+	</footer>
+  </section>					
+ </main>
 
 	
 </body>

@@ -10,9 +10,7 @@
 	margin: 50% 0 50% 0;
 	position: relative;
 	top: 30px;
-	font-size: 1.5rem;
-
-	
+	font-size: 1.5rem;	
 }
 
 .navbar {
@@ -27,15 +25,12 @@
 	text-align: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	
 }
 
 @media screen and (max-width: 800px) {
 	.welcome-banner {
-		height: auto;
-	}
-
-
+		height: auto;	
+}
 }
 
 h1 {
@@ -54,9 +49,8 @@ h2 {
 	background-color: #feeeeb;
 }
 
-.about-me {
+.about-me-container {
 	text-align:center;
-	
 }
 
 .about-me img, .about-me p {
@@ -73,8 +67,7 @@ h2 {
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: space-evenly;
-	margin: 50px;
-	
+	margin: 50px;	
 }
 
 .portfolio-container img {
@@ -82,18 +75,17 @@ h2 {
 }
 
 
-.contact-me{
+.contact-me {
 	border-top: 2px solid #ff4716;
 	background-color: #feeeeb;
-
 }
+
+
 .my-contacts i {
   font-family: 'FontAwesome';
   src: url("https://fontawesome.com/v5.15/icons/linkedin?style=brands");
 }
 
-
-}
 
 body {
 	padding: 10px;
