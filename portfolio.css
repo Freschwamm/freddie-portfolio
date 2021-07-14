@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	font-size: 20px;
+	color: #ff4716;
+	overflow: auto;
+}
+
+.navbar a {
+	padding: 50% 0 0 5%;
+	text-decoration: none;
+	margin: 50% 0 50% 0;
+	position: relative;
+	top: 30px;
+	font-size: 1.5rem;	
+}
+
+.navbar {
+	background-color: #feeeeb;
+	padding: 0 0 30px;
+}
+
+.welcome-banner {
+	background-image: url("https://images.pexels.com/photos/2132171/pexels-photo-2132171.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+	.welcome-banner {
+		height: auto;	
+  }
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin: 0 auto;
+	padding: 50px 0 200px 0;
+	color: #ffffff;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.about-alt {
+	background-color: #feeeeb;
+}
+
+.about-me-container {
+	text-align:center;	
+}
+
+.about-me-container img, .about-me-container p {
+	margin: 20px;
+	padding: 20px;
+}
+
+.projects {
+	background-color: #fef7ed;
+}
+
+.portfolio-container, .my-contacts {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-evenly;
+	margin: 50px;	
+}
+
+.portfolio-container img {
+	padding: 20px;
+}
+
+
+.contact-me {
+	border-top: 2px solid #ff4716;
+	background-color: #feeeeb;
+}
+
+
+.my-contacts i {
+  font-family: 'FontAwesome';
+  src: url("https://fontawesome.com/v5.15/icons/linkedin?style=brands");
+}
+
+
+body {
+	padding: 10px;
+}
+
+
