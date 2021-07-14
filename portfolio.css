@@ -2,6 +2,7 @@
 	margin: 0;
 	font-size: 20px;
 	color: #ff4716;
+	overflow: auto;
 }
 
 .navbar a {
@@ -23,8 +24,9 @@
 	width: 100%;
 	height: 100vh;
 	text-align: center;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	
 }
 
 @media screen and (max-width: 800px) {
@@ -51,9 +53,10 @@ h2 {
 
 .about-me-container {
 	text-align:center;
+	
 }
 
-.about-me img, .about-me p {
+.about-me-container img, .about-me-container p {
 	margin: 20px;
 	padding: 20px;
 }
