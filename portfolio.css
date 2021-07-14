@@ -1,6 +1,7 @@
 * {
 	margin: 0;
-	font-size: 10px;
+	font-size: 20px;
+	color: #ff4716;
 }
 
 .navbar a {
@@ -10,11 +11,12 @@
 	position: relative;
 	top: 30px;
 	font-size: 1.5rem;
+
 	
 }
 
 .navbar {
-	background-color: rgb(250, 212, 231);
+	background-color: #feeeeb;
 	padding: 0 0 30px;
 }
 
@@ -23,7 +25,6 @@
 	width: 100%;
 	height: 100vh;
 	text-align: center;
-	color: rgb(255,255,255);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
@@ -38,25 +39,36 @@
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 2.5rem;
 	margin: 0 auto;
-	padding: 50px 0 200px 0 ;
+	padding: 50px 0 200px 0;
+	color: #ffffff;
 }
 
 h2 {
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
-.about {
-	background-color: rgb(247, 238, 200);
+.about-alt {
+	background-color: #feeeeb;
 }
 
-.about-me{
+.about-me {
 	text-align:center;
+	
 }
 
-.portfolio-container, .my-contacts{
+.about-me img, .about-me p {
+	margin: 20px;
+	padding: 20px;
+}
+
+.projects {
+	background-color: #fef7ed;
+}
+
+.portfolio-container, .my-contacts {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
@@ -70,8 +82,9 @@ h2 {
 }
 
 
-.contact{
-	border-top: 2px solid black;
+.contact-me{
+	border-top: 2px solid #ff4716;
+	background-color: #feeeeb;
 
 }
 .my-contacts i {
