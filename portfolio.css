@@ -91,6 +91,10 @@ body {
 	padding: 10px;
 }
 
+a {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 800px) {
 	.welcome-banner {
 		height: auto;	
