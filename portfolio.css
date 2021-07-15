@@ -1,8 +1,9 @@
 * {
-	margin: 0;
+	margin: 0 auto;
 	font-size: 20px;
-	color: #ff4716;
-	overflow: auto;
+	color: #ff4716;	
+	padding: 1px;
+	font-family: 'Comfortaa', sans-serif, cursive;
 }
 
 .navbar a {
@@ -28,12 +29,6 @@
 	background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 800px) {
-	.welcome-banner {
-		height: auto;	
-  }
-}
-
 h1 {
 	font-size: 2.5rem;
 	margin: 0 auto;
@@ -44,6 +39,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-size: 1.5rem;
+	width: 100%;
 }
 
 .about-alt {
@@ -60,7 +56,10 @@ h2 {
 }
 
 .projects {
+	display: flex;
+	flex-flow: row wrap;
 	background-color: #fef7ed;
+	justify-content: center;
 }
 
 .portfolio-container, .my-contacts {
@@ -68,28 +67,36 @@ h2 {
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: space-evenly;
-	margin: 50px;	
+	margin: 0 50px;	
 }
+
+.portfolio-container {
+	max-width: 300px;
+}
+
 
 .portfolio-container img {
 	padding: 20px;
 }
-
 
 .contact-me {
 	border-top: 2px solid #ff4716;
 	background-color: #feeeeb;
 }
 
-
 .my-contacts i {
   font-family: 'FontAwesome';
   src: url("https://fontawesome.com/v5.15/icons/linkedin?style=brands");
 }
 
-
 body {
 	padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+	.welcome-banner {
+		height: auto;	
+  }
 }
 
 
