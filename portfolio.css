@@ -11,13 +11,11 @@
 	text-decoration: none;
 	margin: 50% 0 50% 0;
 	position: relative;
-	top: 30px;
-	font-size: 1.5rem;	
+	font-size: 1.5rem;
 }
 
 .navbar {
 	background-color: #feeeeb;
-	padding: 0 0 30px;
 }
 
 .welcome-banner {
@@ -85,8 +83,8 @@ h2 {
 }
 
 .my-contacts i {
-  font-family: 'FontAwesome';
-  src: url("https://fontawesome.com/v5.15/icons/linkedin?style=brands");
+    font-family: 'FontAwesome';
+    src: url("https://fontawesome.com/v5.15/icons/linkedin?style=brands");
 }
 
 body {
