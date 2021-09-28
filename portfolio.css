@@ -100,8 +100,6 @@ figure button, figure p {
     margin-top: 100px;
 }
 
-
-
 .topnav {
     height: 100px;
     border-bottom: 2px solid #efefef;
@@ -152,9 +150,9 @@ a {
     .welcome-banner {
         height: auto;
     }
-}
-
-@media screen and (max-width: 800px) {
+    .welcome-banner img {
+        display: none;
+    }
     .topnav a {
         font-size: 30px;
     }
@@ -165,8 +163,15 @@ a {
 
     .my-contacts i {
         font-size: 1rem;
-
+    }
+    .topnav {
+        border-bottom: none;
+    }
+    .my-contacts {
+        border: none;
     }
 }
+
+
 
 
